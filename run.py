@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Evi-Runner"))
         self.label.setText(_translate("MainWindow", "File to Open:"))
         self.label_2.setText(_translate("MainWindow", "Enter File or Folder name. Evi will open it for you."))
         self.pushButton.setText(_translate("MainWindow", "Open"))
